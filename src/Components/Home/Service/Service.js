@@ -1,11 +1,12 @@
 import React from "react";
 import './Service.css'
-import { Card, CardGroup } from "react-bootstrap";
+import { Button, Card, CardGroup } from "react-bootstrap";
 import service1 from "../../../images/service1.jpg";
 import service2 from "../../../images/service2.jpg";
 import service3 from "../../../images/service3.jpg";
 
 const Service = () => {
+
   return (
     <div className="text-center mt-4">
       <h2 className="">Services</h2>
@@ -21,7 +22,7 @@ const Service = () => {
             <h2>Booking price: 100$</h2>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <Button className="btn btn-primary w-100">Book Now</Button>
           </Card.Footer>
         </Card>
         <Card className="border rounded shadow">
@@ -34,7 +35,7 @@ const Service = () => {
             <h2>Booking price: 269$</h2>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+          <Button className="btn btn-primary w-100">Book Now</Button>
           </Card.Footer>
         </Card>
         <Card className="border rounded shadow">
@@ -47,7 +48,7 @@ const Service = () => {
             <h2>Booking price: 399$</h2>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+          <Button className="btn btn-primary w-100">Book Now</Button>
           </Card.Footer>
         </Card>
       </CardGroup>
