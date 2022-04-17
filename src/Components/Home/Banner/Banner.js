@@ -15,7 +15,7 @@ const Banner = () => {
         />
         <Carousel.Caption>
           <h3>Travel Photography</h3>
-          <p>We Capture the best travel Photo in cheaper rate</p>
+          <p>I Capture the best travel Photo in cheaper rate</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -40,7 +40,7 @@ const Banner = () => {
         <Carousel.Caption>
           <h3>Festival Photography</h3>
           <p>
-            We care about all kinds of festival events with our massive lense
+            I care about all kinds of festival events with my massive lense
           </p>
         </Carousel.Caption>
       </Carousel.Item>

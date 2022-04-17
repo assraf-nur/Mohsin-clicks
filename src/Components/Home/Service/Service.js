@@ -16,7 +16,7 @@ const Service = () => {
           <Card.Body>
             <Card.Title>Portrait Clicking</Card.Title>
             <Card.Text>
-              You can hire me as your portrait clicker. Our package is bigger than others. You will be satisfied.
+              You can hire me as your portrait clicker. Package is bigger than others. You will be satisfied.
             </Card.Text>
             <h2>Booking price: 100$</h2>
           </Card.Body>
@@ -29,7 +29,7 @@ const Service = () => {
           <Card.Body>
             <Card.Title>Events Clicking</Card.Title>
             <Card.Text>
-              Butterfly-Clicks believe every moment is important. Our clicking team will capture every single moments you have.
+              Me and my team believe every moment is important. Our clicking team will capture every single moments you have.
             </Card.Text>
             <h2>Booking price: 269$</h2>
           </Card.Body>
@@ -42,7 +42,7 @@ const Service = () => {
           <Card.Body>
             <Card.Title>Weeding Clicking</Card.Title>
             <Card.Text>
-              You will marry we will click. Your family will be amazed to know how much we can click in one weeding event.
+              You will marry I will click. Your family will be amazed to know how much I can click in one weeding event.
             </Card.Text>
             <h2>Booking price: 399$</h2>
           </Card.Body>
