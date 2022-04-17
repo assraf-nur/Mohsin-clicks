@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="sticky-top">
       <nav className="navbar navbar-expand-lg navbar-light bg-light container">
         <div className="container-fluid">
           <h4>Butterfly-Clicks</h4>

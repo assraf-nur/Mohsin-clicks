@@ -1,5 +1,8 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+import banner1 from '../../../images/banner1.jpg'
+import banner2 from '../../../images/banner3.jpg'
+import banner3 from '../../../images/banner5.jpg'
 
 const Banner = () => {
   return (
@@ -7,37 +10,37 @@ const Banner = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          src={banner1}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Travel Photography</h3>
+          <p>We Capture the best travel Photo in cheaper rate</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          src={banner2}
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Documentary Photography</h3>
+          <p>For any kinds of research and documentary photographs</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          src={banner3}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Festival Photography</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            We care about all kinds of festival events with our massive lense
           </p>
         </Carousel.Caption>
       </Carousel.Item>
