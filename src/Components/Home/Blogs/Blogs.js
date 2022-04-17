@@ -15,7 +15,7 @@ const Blogs = () => {
             <br /><hr />
             <span className="font-bold mt-2">Authorization:</span> <br />
             Authorization make sure what user can access.Authorization always takes place after authentication. It works through settings that are implemented and maintained by the organization or admin.
-            Authorization isn’t visible to or changeable by the user.
+            Authorization isn't visible to or changeable by the user.
           </Card.Text>
         </Card.Body>
       </Card>
