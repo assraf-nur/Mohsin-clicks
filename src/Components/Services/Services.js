@@ -12,7 +12,7 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="mt-3 text-center">
+    <div className="mt-3 text-center container">
         <h2>Services</h2>
       <CardGroup className="gap-5 mt-3">
         {services.map((service) => (
