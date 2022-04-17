@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "price": 292,
+      "img": "https://i.ibb.co/GkCYP4N/service1.jpg",
+      "title": "Portrait Clicking",
+      "details": "You can hire me as your portrait clicker. Package is bigger than others. You will be satisfied.\r\n"
+    },
+    {
+      "id": 2,
+      "price": 325,
+      "img": "https://i.ibb.co/vwwFL9T/service2.jpg",
+      "title": "Events Capture",
+      "details": "Me and my team believe every moment is important. Our clicking team will capture every single moments you have.\r\n"
+    },
+    {
+      "id": 3,
+      "price": 428,
+      "img": "https://i.ibb.co/fYTWWvw/service3.jpg",
+      "title": "Weeding Capturing",
+      "details": "You will marry I will click. Your family will be amazed to know how much I can click in one weeding event.\r\n"
+    }
+  ]
