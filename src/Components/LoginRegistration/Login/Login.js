@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Button, Form } from "react-bootstrap";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import auth from "../../../firebase.init";
 import "./Login.css";
 
@@ -16,6 +16,9 @@ const Login = () => {
   const emailRef = useRef("");
   const passwordRef = useRef("");
   const navigate = useNavigate();
+  const location = useLocation();
+
+  let from = location?.state?.from?.pathname || '/'
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,7 +28,7 @@ const Login = () => {
   };
 
   if(user){
-    navigate('/home')
+    navigate(from, {replace: true});
   }
 
   const navigateRegister = (e) => {
@@ -61,11 +64,14 @@ const Login = () => {
             required
           />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
-        </Form.Group>
-        <Button variant="primary" type="submit">
-          Submit
+        {
+          loading && <p className="text-primary font-bold text-center">Loading....😌</p>
+        }
+        {
+          error && <p className="text-danger font-bold text-center">User Not Found😥</p>
+        }
+        <Button className="px-5" variant="primary" type="submit">
+          Login
         </Button>
         <p>
           New to our site ?{" "}

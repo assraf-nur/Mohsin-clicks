@@ -55,9 +55,14 @@ const Registration = () => {
             We'll never share your password with anyone else.
           </Form.Text>
         </Form.Group>
-        
-        <Button variant="primary" type="submit">
-          Submit
+        {
+          loading && <p className="text-primary font-bold text-center">Loading....😌</p>
+        }
+        {
+          error && <p className="text-danger font-bold text-center">Email Already in Used 😥</p>
+        }
+        <Button className="px-5" variant="primary" type="submit">
+          Register
         </Button>
         <p>Already have an account ! <span className="text-danger reg" onClick={navigateLogin}>Login</span></p>
       </Form>
