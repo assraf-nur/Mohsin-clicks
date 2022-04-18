@@ -11,7 +11,7 @@ const About = () => {
         toast(`❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️`)
     }
 
-    const about = `Hello !!. Recently i have finished my graduation from Daffodil International University in CSE. After finishing my BSC i was too much confused what should i do. Then one of my friend Muib suggest me this Course. Now I can feel i have skill and i can do a good job also. Big thanks to PH team... You guys are awesome.`;
+    const about = `Hello !!. Recently i have finished my graduation from Daffodil International University in CSE. After finishing my BSC i was too much confused what should i do. Then one of my friend Muib suggest me this Course. Now I can feel i have skill and i can do a good job also. My future plan is to be a best developer. I am also interested in AI. Web development will be my first step to go forward to AI. Big thanks to PH team... You guys are awesome.`;
     
   return (
     <div className="container mx-auto mt-5">
