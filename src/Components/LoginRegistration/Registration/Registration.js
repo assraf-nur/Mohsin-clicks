@@ -39,7 +39,7 @@ const Registration = () => {
     }
 
   return (
-    <div className="container w-50 mt-5 rounded border p-5 shadow">
+    <div className="container w-50 mt-2 rounded border p-5 shadow">
         <h2 className="text-center">Registration</h2>
       <Form onSubmit={handleRegister}>
         <Form.Group className="mb-3" controlId="formBasicEmail">

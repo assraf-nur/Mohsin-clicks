@@ -15,6 +15,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Routes>
+        <Route path='/' element={<Home></Home>}/>
         <Route path='/home' element={<Home></Home>}/>
         <Route path='/service/:serviceId' element={
           <RequireAuth>
