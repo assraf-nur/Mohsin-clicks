@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
-import { useNavigate} from "react-router-dom";
+import { useLocation, useNavigate} from "react-router-dom";
 import './Registration.css'
 import { useCreateUserWithEmailAndPassword, useSignInWithGoogle, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from "../../../firebase.init";
@@ -33,11 +33,15 @@ const Registration = () => {
         await updateProfile({ displayName: name});
           alert('Updated profile');
     }
+    const location = useLocation();
+
+    let from = location?.state?.from?.pathname || "/";
+
 
     if(user || user1){
-      navigate('/home')
+      navigate(from, { replace: true });
     }
-
+    
   return (
     <div className="container w-50 mt-2 rounded border p-5 shadow">
         <h2 className="text-center">Registration</h2>
